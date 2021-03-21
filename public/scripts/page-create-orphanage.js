@@ -19,8 +19,8 @@ map.on('click', (event) => {
     const lat = event.latlng.lat;
     const lng = event.latlng.lng;
 
-    document.querySelector('[name=Lat]').value = lat;
-    document.querySelector('[name=Lng]').value = lng;
+    document.querySelector('[name=lat]').value = lat;
+    document.querySelector('[name=lng]').value = lng;
 
     // remove icon
     marker && map.removeLayer(marker)
@@ -83,3 +83,13 @@ function toggleSelect(event) {
 
     input.value = button.dataset.value
 }
+
+/* function validate(event) {
+
+    // Validar se lat e lng estao preenchidos
+    const needsLatAndLng = true;
+    if(needsLatAndLng) {
+        event.preventDefault()
+        alert('Selecione um ponto no mapa!')
+    }
+} */

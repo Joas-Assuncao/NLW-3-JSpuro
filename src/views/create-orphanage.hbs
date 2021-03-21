@@ -42,7 +42,7 @@
 
     <main class="animate-appear with-sidebar">
 
-      <form action="">
+      <form action="save-orphanage" method="post" onsubmit="validate(event)">
         <fieldset>
           <legend>Dados</legend>
 
@@ -52,9 +52,9 @@
             <input type="hidden" name="lng">
 
             <footer>
-              <a href="#" id="select-point">
+              <p id="select-point">
                 Clique no mapa para adicionar a localização
-              </a>
+              </p>
             </footer>
           </div>
 
@@ -79,7 +79,12 @@
             <div class="images-upload" id="images">
 
               <div class="new-upload">
-                <input name="images" placeholder="Cole o link da foto aqui" required />
+                <input 
+                  name="images" 
+                  placeholder="Cole o link da foto aqui" 
+                  required
+                  type="url"
+                />
                 <span onclick="deleteField(event)">
                   <img src="/images/remove-file.svg" alt="Remover foto">
                 </span>

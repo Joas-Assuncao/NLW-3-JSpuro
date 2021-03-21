@@ -75,6 +75,7 @@ main {
     line-height: 1.6;
     color: #5c8599;
     margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
 }
 
 .orphanage-details-content hr {
@@ -100,6 +101,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
+
+    line-height: 1.5;
 }
 
 .open-details div {
@@ -116,15 +119,47 @@ main {
 
     border: 1px solid #B3DAE2;
     border-radius: 20px;
-
     color: #5C8599;
 }
 
 .open-details .open-on-weekends {
-    background: linear-gradient(154.16deg, #EDFFF6 7.85%, #FFFFFF 91.03%);
-
-    border: 1px solid #A1E9C5;
     border-radius: 20px;
+}
 
+.open-on-weekends.open {
+    background: linear-gradient(154.16deg, #EDFFF6 7.85%, #FFFFFF 91.03%);
+    border: 1px solid #A1E9C5;
     color: #37C77F;
+}
+
+.open-on-weekends.closed {
+    background: linear-gradient(154.16deg, #FCF0F4 7.85%, #FFFFFF 91.03%);
+    border: 1px solid #FFBCD4;
+    color: #FF999D;
+}
+
+#mapid {
+    height: 300px;
+}
+
+.map-container {
+    margin: 0 0 4rem;
+}
+
+.map-container .leaflet-container {
+    border-radius: 20px 20px 0 0;
+}
+
+.map-container footer {
+    height: 5rem;
+    background: #F5F8FA;
+    border-radius: 0px 0px 2.5rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-container footer a {
+    text-decoration: none;
+    color: #17D6EB;
 }

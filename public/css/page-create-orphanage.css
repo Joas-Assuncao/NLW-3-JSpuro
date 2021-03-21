@@ -7,6 +7,10 @@ main {
     flex: 1;
 }
 
+#mapid {
+    height: 300px;
+}
+
 .map-container {
     margin: 0 0 4rem;
 }
@@ -16,6 +20,15 @@ main {
 }
 
 .map-container footer {
-    background: #f5f8fa;
-    border-radius: 0 0 20px 20px; 
+    height: 5rem;
+    background: #F5F8FA;
+    border-radius: 0px 0px 2.5rem 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-container footer #select-point {
+    color: #17D6EB;
+    text-decoration: none;
 }

@@ -5,6 +5,7 @@ module.exports = [
     lng: "-47.88394991",
     name: "Lar das Crianças",
     description: "Presta assistência a crianças de 06 a 15 anos que se encontre em situação de risco e/ou vulnerabilidade social.",
+    whatsapp: "3109403545",
     images: [
       
       "https://blog.conexasaude.com.br/wp-content/uploads/2019/05/thinkstockphotos-944585218.jpg",
@@ -14,7 +15,7 @@ module.exports = [
     ],
     instruction: "Venha como se sentir a vontade e traga muito amor e paciência para dar.",
     opening_hours: "Horário de visitas Das 8h até 18h",
-    opening_on_weekends: "1"
+    open_on_weekends: "1"
 
   },
 
@@ -24,6 +25,7 @@ module.exports = [
     lng: "-47.89394991",
     name: "Casa Esperança",
     description: "Presta assistência a crianças de 06 a 15 anos que se encontre em situação de risco e/ou vulnerabilidade social.",
+    whatsapp: "6193448398",
     images: [
       
       "https://blog.conexasaude.com.br/wp-content/uploads/2019/05/thinkstockphotos-944585218.jpg",
@@ -33,8 +35,7 @@ module.exports = [
     ],
     instruction: "Venha como se sentir a vontade e traga muito amor e paciência para dar.",
     opening_hours: "Horário de visitas Das 8h até 18h",
-    opening_on_weekends: "0"
+    open_on_weekends: "0"
 
   }
 ]
-
